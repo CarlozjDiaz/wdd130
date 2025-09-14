@@ -4,11 +4,11 @@ main {
 }
 nav {
     background-color: #333;
-    padding: auto;
+    padding: 10%;
 }
 nav a{
     background-color: #333;
-    padding: auto;
+    padding: 10%;
     display:block;
 }
 h1{
@@ -18,8 +18,8 @@ img {
     width: 200px;
     height: auto;
     border: black;
-    padding: auto;
-    box-shadow: #000;
+    padding: 10%;
+    box-shadow: black;
 
 }
 aside{
