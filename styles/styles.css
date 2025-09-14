@@ -1,5 +1,6 @@
 main {
     max-width: 840px;
+    text-align: center;
 }
 aside{
     width: 20rem;
@@ -13,6 +14,7 @@ aside{
 aside img{
     width: 200px;
     height:auto;
+    text-align: center;
 }
 main img{
     width: 150px;
