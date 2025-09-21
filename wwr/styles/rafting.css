@@ -39,13 +39,13 @@ nav, p, section, article {
     padding: 8px;
 }
 
-.socialmedia a{
+.socialmedia a {
     text-decoration: none;
 }
 
 .hero {
     position: relative;
-    text-align: center;
+
 }
 
 .hero img{
