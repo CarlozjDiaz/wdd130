@@ -30,6 +30,7 @@ div img {
     display: flex;
     list-style: none;
 }
+
 ul{
 
 display: flex;
@@ -48,8 +49,7 @@ li{
 margin-right: 150px;
 }
 
-al {
-
+c {
 display: flex;
 list-style: none;
 flex: 1 1 auto;
@@ -134,7 +134,7 @@ h1{
     background-color: var(--accent1-color);    
 }
 
-.hero article img{
+.hero h2 img{
     float: right;
     width: 125px;   
 }
