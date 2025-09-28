@@ -31,12 +31,15 @@ div img {
     list-style: none;
 }
 
-ul{
+nav{
+    text-align: right;
+}
 
+ul{
 display: flex;
 list-style: none;
 flex: 1 1 auto;
-
+        text-align: center;
 }
  ul img {
     width: 200px;
@@ -44,6 +47,7 @@ flex: 1 1 auto;
     margin-right: 1px;
     margin-left: 1px;
  }
+
 
 li{
 margin-right: 150px;
@@ -53,6 +57,7 @@ c {
 display: flex;
 list-style: none;
 flex: 1 1 auto;
+text-align: center;
 }
 
 lu {
@@ -98,10 +103,16 @@ figcaption {
   text-align: center;
 }
 
-h1, h2{
+h1 {
     font-family: var(--heading-font);
     color: var(--primary-color);
     
+}
+
+h2{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    text-align: center;
 }
 
  p, section, article {
@@ -138,8 +149,11 @@ h1{
     float: right;
     width: 125px;   
 }
+.footer {
+    justify-content: space-between;
+}
 
 footer img{
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
 }
