@@ -25,75 +25,84 @@
         </nav>
     </header>
     <main>
-        <div class="hero">
-            <img src="images/background.jpg" alt="You need a boat to practice rafting">
-            <h1>Speed-boats</h1>
-            <h2>
-                <img src="images/happy.jpg" alt="A very happy costumers">
-            </h2>
-            <h2>We offer you boats to withstand the current</h2>
+        <section class="company-info">
+            <h3>Speed-boats</h3>
+            <p>1777 R. Tijucas do Sul</p>
+            <p>Curitiba, Estado de Paraná</p>
+            <p>+55 95 98129 1919 </p>
+            <p><a href="mailto:info@whitewater.com">info@whitewater.com</a></p>
+        </section>
 
-        </div>
-        <section class="history">
-            <h2>History</h2>
-            <div class="history-grid-container">
-                <div class="history-item">
-                    <p>Our boats have been of high quality since 2000, when this company began offering different
-                        types
-                        of
-                        boats
-                        with different attributes in size, quality, material, and anything else we can offer you,
-                        your
-                        team,
-                        or
-                        your family</p>
+        <section class="contact-section">
+            <div class="map-placeholder">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1272.720312167976!2d-49.265550684018116!3d-25.545149580016787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dcfd6d2b1d8d67%3A0xd2f0791242f3228f!2sHot%20Dogueria%20Donas%20do%20Sabor!5e0!3m2!1ses-419!2sbr!4v1760586729332!5m2!1ses-419!2sbr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="contact-form-container">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Placeholder">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Placeholder">
+                    </div>
+                    <div class="form-group">
+                        <label>Message Purpose</label>
+                        <div class="radio-group">
+                            <input type="radio" id="generalInquiry" name="purpose" value="general" checked>
+                            <label for="generalInquiry">General Inquiry</label><br>
+                            <input type="radio" id="reservationQuestion" name="purpose" value="reservation">
+                            <label for="reservationQuestion">Reservation Question</label><br>
+                            <input type="radio" id="websiteSuggestion" name="purpose" value="suggestion">
+                            <label for="websiteSuggestion">Website Suggestion</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Type here"></textarea>
+                    </div>
+                    <div class="newsletter-signup">
+                        <input type="checkbox" id="newsletter" name="newsletter" checked>
+                        <label for="newsletter">Please Subscribe Me to the monthly newsletter</label>
+                    </div>
+                    <button type="submit" class="submit-button">Get In Touch!</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="team-section">
+            <h2>We Are Here to Serve You</h2>
+            <div class="employee-cards">
+                <div class="employee-card">
+                    <div class="profile-placeholder">
+                        <img src="images/Jose.png">
+                    </div>
+                    <h3>Jose Suarez</h3>
+                    <p>Checker</p>
                 </div>
-                <div class="history-item">
-                    <img src="images/history.png" alt="A very happy costumers">
+                <div class="employee-card">
+                    <div class="profile-placeholder">
+                        <img src="images/Lois.png">
+                    </div>
+                    <h3>Lois Whitmer</h3>
+                    <p>Seller</p>
                 </div>
-                <div class="history-item">
-                    <p>"Together we can find the perfect boats for your can need"</p>
+                <div class="employee-card">
+                    <div class="profile-placeholder">
+                        <img src="images/Lian.png">
+                    </div>
+                    <h3>Lian River</h3>
+                    <p>Instructor</p>
                 </div>
             </div>
         </section>
-        <section>
-            <h2>Adventure Awaits You!</h2>
-            <ul>
-                <li>
-                    <figure>
-                        <img src="images/history.png" alt="Start with a boat">
-                        <figcaption>Find your boat!</figcaption>
-                    </figure>
-                </li>
-                <li>
-                    <figure>
-                        <img src="images/happy.jpg" alt="Rafting in family">
-                        <figcaption>Together with your family</figcaption>
-                    </figure>
-                </li>
-                <li>
-                    <figure>
-                        <img src="images/river.png" alt="Where practice">
-                        <figcaption>Rafting places</figcaption>
-                    </figure>
-                </li>
-            </ul>
-            <ul class="second">
-                <li>
-                    <figure>
-                        <img src="images/training.png" alt="How pratice">
-                        <figcaption>Training</figcaption>
-                    </figure>
-                </li>
-                <li>
-                    <figure>
-                        <img src="images/support.png" alt="Do you need help?">
-                        <figcaption>Support</figcaption>
-                    </figure>
-                </li>
-            </ul>
-        </section>
     </main>
+
     <footer>
         <p class="copyright">©2025 Speed-boats | Carlos Díaz</p>
         <nav class="socialmedia">
